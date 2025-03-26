@@ -12,6 +12,7 @@
 		AEAF56CE2D945DB4005FBC9F /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF56C92D945DB4005FBC9F /* MVVMAndFreeformInputApp.swift */; };
 		AEAF56CF2D945DB4005FBC9F /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF56CA2D945DB4005FBC9F /* PowerView.swift */; };
 		AEAF56D32D945E4E005FBC9F /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF56D22D945E4E005FBC9F /* Power.swift */; };
+		AEAF56D62D945F7B005FBC9F /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF56D52D945F75005FBC9F /* PowerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		AEAF56C92D945DB4005FBC9F /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
 		AEAF56CA2D945DB4005FBC9F /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 		AEAF56D22D945E4E005FBC9F /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		AEAF56D52D945F75005FBC9F /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		AEAF56C52D945DB4005FBC9F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				AEAF56D52D945F75005FBC9F /* PowerViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEAF56D62D945F7B005FBC9F /* PowerViewModel.swift in Sources */,
 				AEAF56CE2D945DB4005FBC9F /* MVVMAndFreeformInputApp.swift in Sources */,
 				AEAF56D32D945E4E005FBC9F /* Power.swift in Sources */,
 				AEAF56CF2D945DB4005FBC9F /* PowerView.swift in Sources */,
